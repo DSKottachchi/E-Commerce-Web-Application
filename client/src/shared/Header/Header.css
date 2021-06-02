@@ -1,0 +1,84 @@
+* {
+    font-family: poppins;
+}
+
+.header {
+    background: #041e42;
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    z-index: 100;
+    top: 0;
+    padding: 10px 0px;
+    width: 100%;
+}
+
+.header__left {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 25px;
+}
+
+img.header__logo {
+    height: 40px;
+}
+
+.header__input {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+}
+
+.header__input>input {
+    border: none;
+    outline-width: 0;
+    padding: 5px 10px;
+    border-radius: 4px;
+    min-width: 105px;
+    width: 42%;
+    height: 36px;
+    font-size: 14px;
+    margin-right: 13px;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+    padding-right: 25px;
+}
+
+.MuiSvgIcon-root {
+    color: #ffffff;
+}
+
+.icon--header:hover {
+    background-color: #ffc220;
+    border-radius: 50px;
+    align-items: center;
+    padding: 5px;
+    border-bottom: none;
+}
+
+button.header__login {
+    background: none;
+    color: #fff;
+    width: 100%;
+    outline: none;
+    border: none; 
+    margin-right: 13px;
+    align-items: center;
+}
+
+button.header__login:hover {
+    cursor: pointer;
+}
+
+.header__cart {
+    display: flex;
+    color: #fff;
+}
+
+span.cart__value {
+    margin: 0px 8px;
+}
