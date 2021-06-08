@@ -4,7 +4,7 @@
 }
 
 .item__card img {
-    max-width: 300px;
+    max-width: 200px;
 }
 
 .item__card {
@@ -15,9 +15,29 @@
 a.item__card {
     display: block;
     height: 100%;
+    text-decoration: none;
 }
 
 a.item__card:hover {
     cursor: pointer;
 }
 
+a.item__name {
+    color: #000;
+    font-size: 12px;
+    display: block;
+    text-decoration: none;
+    padding: 0px 25px;
+}
+
+.item_price {
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+    outline: none;
+    margin: 10px 0px;
+}
+
+.item__link {
+    text-decoration: none;
+}
