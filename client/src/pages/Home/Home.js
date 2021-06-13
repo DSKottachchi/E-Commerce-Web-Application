@@ -11,8 +11,8 @@ const Home = () => {
             <Header />
             <Container>
                 <div className="home-container">
-                    <Item />
                     
+                    <Item />
                 </div>
             </Container>
         </div>
